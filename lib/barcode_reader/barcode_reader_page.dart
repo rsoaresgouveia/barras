@@ -88,7 +88,6 @@ class _BarcodeReaderPageState extends State<BarcodeReaderPage> {
 
   @override
   Widget build(BuildContext context) {
-    _captureController.resume();
     return Scaffold(
       body: Stack(
         alignment: Alignment.center,
